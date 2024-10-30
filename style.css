@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    background-color: #3d3c3c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.clock {
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.time {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.binary {
+    font-size: 1.2rem;
+}
+
+.alarm {
+    margin-bottom: 20px;
+}
+
+.alarm label, .alarm input, .alarm button {
+    margin: 5px;
+}
+
+.alarm button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explanation {
+    text-align: center;
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(15, 15, 15, 0.89);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.explanation h2 {
+    margin-top: 0;
+}
+
+.explanation p, .explanation ul {
+    text-align: left;
+}
+
+.footer {
+    background-color: #3d3c3c;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: #fffdfd;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
